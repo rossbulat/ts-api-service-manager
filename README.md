@@ -6,4 +6,4 @@ The purpose of an API manager is to handle a web service, from its authenticatio
 
 The manager must ensure type safety along the way; it is fully typed, as are the request and response objects you expect to receive.
 
-To prevent re-inventing the wheel, requests are sent via Javascript's native fetch() API, that works hand-in-hand with the manager.
+To prevent re-inventing the wheel, requests are sent via Javascript's native `fetch()` API, that works hand-in-hand with the manager.
