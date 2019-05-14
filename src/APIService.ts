@@ -13,11 +13,7 @@ export class APIService {
   }
 
   set authToken (newAuthToken: string) {
-    if (newAuthToken) {
-      this._authToken = newAuthToken;
-    } else {
-      console.log("Error: No auth token provided");
-    }
+    this._authToken = newAuthToken;
   }
 
   get headers (): string[][] {
@@ -25,11 +21,7 @@ export class APIService {
   }
 
   set method (newMethod: ApiMethod) {
-    if (newMethod) {
-      this._authToken = newMethod;
-    } else {
-      console.log("Error: No method provided");
-    }
+    this._authToken = newMethod;
   }
 
   public setHeaders (headers: KeyValue<string, string>[]): APIService {
@@ -70,11 +62,7 @@ export class RequestBody<T> {
   }
 
   set requestBody (newRequestBody: T) {
-    if (newRequestBody) {
-      this._requestBody = newRequestBody;
-    } else {
-      console.log("Error: No request body provided");
-    }
+    this._requestBody = newRequestBody;
   }
 }
 
