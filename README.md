@@ -1,4 +1,4 @@
-# Polymorphic API Service Manager
+# Advanced Typescript by Example: API Service Manager
 
 ### This repository coincides with a walkthrough available to read on Medium [here](https://medium.com/@rossbulat/advanced-typescript-by-example-api-service-manager-7ea591f5eba8).
 
