@@ -21,7 +21,7 @@ export class APIService {
   }
 
   set method (newMethod: ApiMethod) {
-    this._authToken = newMethod;
+    this._method = newMethod;
   }
 
   public setHeaders (headers: KeyValue<string, string>[]): APIService {
